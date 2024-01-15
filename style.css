@@ -16,7 +16,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 57.5%;
     over-flow-x: hidden;
 }
 
@@ -52,10 +52,12 @@ section {
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+    font-family: 'Dancing Script', cursive;
 }
 
 
 .navbar a {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -78,10 +80,13 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 10rem;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
 }
 
 .home-img img {
-    width: 35vw;
+    width: 25vw;
     animation: floatImage 4s ease-in-out infinite;
 
 }
@@ -104,24 +109,29 @@ section {
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 
 .home-content h3:nth-of-type(2) {
     margin-bottom: 2rem;
+
 }
 
 span {
     color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
-    line-height: 1.3;
+    /* line-height: 1.3; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .home-content P {
     font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .social-media a {
@@ -137,6 +147,7 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 .social-media a:hover {
@@ -163,46 +174,46 @@ span {
 }
 
 .about {
-    fisplay: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-between;
     gap: 2rem;
     background: var(--second-bg-color);
+    
 }
 
-.about {
-    fisplay: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background: var(--second-bg-color);
-}
 
 .about-img img {
     width: 20vw;
+    
 }
 
 .heading {
     text-align: center;
     font-size: 4.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-content h3 {
     font-size: 2.6rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .services h2 {
     margin: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .services-container {
@@ -231,16 +242,19 @@ span {
 .services-box i {
     font-size: 7rem;
     color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .services-box h3 {
     font-size: 2.6rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .services-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio {
@@ -299,11 +313,13 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;   
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;   
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-layer a {
@@ -319,6 +335,7 @@ span {
 .portfolio-layer a i {
    font-size: 2rem;
    color: var(--second-bg-color);
+   font-family: 'Roboto', sans-serif;
 
 }
 
@@ -348,6 +365,7 @@ span {
     background: var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact form  .input-box input {
@@ -375,6 +393,7 @@ span {
 
 .footer-text p {
     font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer-iconTop a {
@@ -394,6 +413,7 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--second-bg-color);
+    font-family: 'Roboto', sans-serif;
 
 }
 
