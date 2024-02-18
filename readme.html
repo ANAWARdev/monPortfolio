@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+        body {
+            background-image: url("img/background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+        main {
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 0 auto;
+            height: 90vh;
+                 
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        div {
+            margin-top: 30px;
+            line-height: 35px;
+            color: #172A3A;
+            font-size: 19px;
+            font-weight: 450;
+        }
+
+        div::first-letter {
+            margin-left: 36px;
+
+        }
+        
+    </style>
+    <main>
+            <h2 id="myHeading">Je souhaite partager avec vous ce qui a été le
+                déclencheur de ma décision de devenir développeuse.</h2>
+
+            <script>
+                function changeColor() {
+                    let heading = document.getElementById("myHeading");
+                    let r = Math.floor(Math.random() * 256);
+                    let g = Math.floor(Math.random() * 256);
+                    let b = Math.floor(Math.random() * 256);
+                    let color = "rgb(" + r + ", " + g + ", " + b + ")";
+                    heading.style.color = color;
+                }
+            
+                // Appeler la fonction au clic
+                document.addEventListener("click", changeColor);
+            </script>
+
+            <div>
+                Ma volonté de devenir développeuse est fondée sur mes passions et mes ambitions professionnelles. <br>
+                Après avoir travaillé dans le domaine de la gestion suite à l'obtention de mon diplôme, j'ai ressenti quotidiennement
+                 le besoin de relever des défis intellectuels, de résoudre des problèmes complexes,
+                  et d'exprimer ma créativité en trouvant des solutions. Mon expérience m'a montré
+                   l'importance du travail en équipe et du feedback constructif, des aspects qui ont
+                    été un peu absents dans mon parcours précédent. Ce qui a particulièrement attiré 
+                    mon attention dans le domaine du développement, c'est la possibilité de travailler
+                     en équipe, de recevoir des retours constructifs pour améliorer mes compétences,
+                      et de constater que la technologie offre un environnement en constante évolution,
+                       répondant ainsi à ma nature curieuse de chercheuse. Je suis motivée par l'idée 
+                       d'un apprentissage continu et les perspectives d'évolution professionnelle que 
+                       ce domaine dynamique offre.<br>
+
+                Le moment décisif qui a orienté ma décision vers le développement a été ma fascination en observant des professionnels du codage. Leur capacité à résoudre rapidement des problèmes de sécurité, à protéger les sites web, et à éliminer des virus avec un simple clic m'a profondément impressionnée.
+            </div>
+        </main>
+</body>
+</html>
+

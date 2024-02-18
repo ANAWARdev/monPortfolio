@@ -5,6 +5,16 @@
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
+main {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+}
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -93,12 +103,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
-
+<main>
 <h2>My resume</h2>
-<p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
-<p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
+<p>
+  Persuadée que mon CV actuel ne rend compte que <br>
+  partiellement de ma motivation et de mon expérience,<br>
+  je reste disponible à votre convenance.</p>
 
-<img id="myImg" src="./img/CV_dridi_anwar.png" alt="CV" style="width:100%;max-width:300px">
+<img id="myImg" src="./img/CV.jpg" alt="CV" style="width:100%;max-width:300px">
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -128,8 +140,20 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
-</script>
+function changeColor(){
+let r = Math.floor(Math.random() * 256);
+let g = Math.floor(Math.random() * 256);
+let b = Math.floor(Math.random() * 256);
+let color = "rgb(" + r + ", " + g + ", " + b + ")";
+document.body.style.backgroundColor = color;
+}
 
+ // Appeler la fonction au clic
+ document.addEventListener("click", changeColor);
+ 
+
+</script>
+</main>
 </body>
 </html>
 

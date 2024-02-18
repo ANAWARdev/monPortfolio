@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        background-color: #d5c7bc;
+    }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 60px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<button type="button" class="collapsible">RNCP Bac 3/4 Diploma  Designer Developer
+    of Application</button>
+<div class="content">
+    <p>
+Veuillez trouver ci-après les compétences dévelopées par le diplôme:
+
+<ol>
+<li>Apprendre des langages de programmation.</li>
+
+<li>
+ Concevoir des interfaces utilisateur attractives et conviviales tout en assurant
+  une expérience utilisateur optimale.</li>
+
+<li>Développement Web : Créer des applications web en utilisant des frameworks et
+ des technologies telles que Symfony.</li>
+
+<li>Base de données : Connaître les systèmes de gestion de bases de données (SGBDR)
+ et être capable de concevoir, mettre en œuvre et gérer des bases de données.</li>
+
+<li>Gestion de versions : Utiliser des systèmes de gestion de versions tels que
+ Git pour suivre les changements de code et faciliter la collaboration.</li>
+
+<li>Sécurité des applications : Comprendre les principes de base de la sécurité
+ des applications et savoir intégrer des mesures de sécurité appropriées.</li>
+
+<li>Méthodologies de développement : Utiliser des méthodologies de développement
+ telles que Scrum ou Agile pour planifier et gérer le développement de projets.</li>
+
+<li>Documentation : Rédiger une documentation claire et complète pour faciliter 
+la maintenance et la collaboration.</li>
+
+<li>Veille technologique : Être au courant des dernières tendances technologiques
+ et des nouveaux outils pour rester à jour dans le domaine.</li>
+
+<li>Résolution de problèmes : Développer des compétences de résolution de problèmes 
+pour identifier, analyser et résoudre efficacement des défis techniques.</li>
+
+</ol>
+
+
+
+    </p>
+</div>
+<button type="button" class="collapsible">Master in Management Business Administration and Strategies</button>
+<div class="content">
+  <p>
+     Voici quelques compétences clés que l'on peut acquérir dans ce domaine :<br>
+    <ol>
+    <li>Gestion organisationnelle : Acquérir une compréhension approfondie de la 
+    planification, de l'organisation et de la coordination des ressources pour 
+    atteindre les objectifs de l'entreprise.<br></li>
+    
+    <li>Stratégie d'entreprise : Mettre en œuvre 
+    et évaluer des stratégies d'entreprise pour assurer la croissance et la 
+    compétitivité sur le marché.<br>
+    
+    <li>Gestion des opérations : Apprendre à optimiser les processus opérationnels 
+    pour maximiser l'efficacité et la productivité au sein de l'organisation.<br></li>
+    
+    <li> Marketing et ventes : Développer des compétences en marketing stratégique, en 
+    gestion des ventes et en compréhension des marchés pour promouvoir efficacement
+     les produits ou services.<br></li>
+    
+    <li>Innovation et entrepreneuriat : Encourager la créativité et développer des 
+    compétences entrepreneuriales pour stimuler l'innovation au sein de l'entreprise.<br></li>
+    
+    <li>Gestion du changement : Apprendre à gérer les changements organisationnels,
+     anticiper les résistances et faciliter une transition en douceur.<br></li>
+    
+     <li>Éthique des affaires : Comprendre les enjeux éthiques liés aux décisions 
+    commerciales et développer une sensibilité à la responsabilité sociale des
+     entreprises.<br></li>
+    
+     </ol>
+   
+    
+  </p>
+  </div>
+<button type="button" class="collapsible">Fundamental Degree Economic and Social Management</button>
+<div class="content">
+    <p>
+        Ce diplôme développe un ensemble de compétences qui permettent de comprendre,
+        analyser et gérer les aspects économiques et sociaux dans divers contextes. <br>
+        Voici quelques domaines que nous avons explorés ou couverts dans le cadre de notre apprentissage :<br>
+   <ol> 
+        <li>Analyse économique : les principes fondamentaux de l'économie,l'offre et la demande, les cycles économiques, les politiques monétaires et fiscales...<br></li>    
+            
+        <li>Gestion financière : les concepts de base de la gestion financière, la comptabilité, la gestion des flux de trésorerie, l'analyse financière et la prise de décisions financières.<br></li>    
+            
+        <li>Gestion des ressources humaines : Acquérir des compétences en gestion du personnel, recrutement, formation, évaluation des performances et résolution de conflits.<br></li>    
+            
+        <li>Communication : Développer des compétences de communication efficace pour interagir avec différentes parties prenantes, y compris les employés, les partenaires, et les parties prenantes externes.<br></li>    
+            
+        <li> Esprit critique : Cultiver la capacité d'analyser de manière critique les données économiques et sociales, ainsi que les différentes théories et modèles.<br></li>    
+            
+        <li>Gestion de projet : Apprendre à planifier, organiser et mettre en œuvre des projets économiques et sociaux, en tenant compte des contraintes de temps et de ressources.<br></li>    
+            
+        <li> Négociation et résolution de conflits : Développer des compétences en négociation pour traiter des enjeux économiques et sociaux, et résoudre les conflits de manière constructive.<br></li>    
+  </ol>
+    </p>
+  </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
